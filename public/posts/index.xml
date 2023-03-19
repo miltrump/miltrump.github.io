@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Miltrump&#39;s Tech Blog</title>
+    <link>http://miltrump.github.io/posts/</link>
+    <description>Recent content in Posts on Miltrump&#39;s Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Milner Trump - All rights reserved</copyright>
+    <lastBuildDate>Sun, 19 Mar 2023 11:13:54 +0700</lastBuildDate><atom:link href="http://miltrump.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blockchain Technology</title>
+      <link>http://miltrump.github.io/blockchain-technology/</link>
+      <pubDate>Sun, 19 Mar 2023 11:13:54 +0700</pubDate>
+      
+      <guid>http://miltrump.github.io/blockchain-technology/</guid>
+      <description>Blockchain technology is a decentralized digital ledger that records transactions in a secure and transparent way. It was first introduced in 2008 as the underlying technology behind the cryptocurrency Bitcoin, but has since evolved to be applied in various industries beyond finance.</description>
+    </item>
+    
+  </channel>
+</rss>
