@@ -4,25 +4,27 @@ title = "Miltrump's Tech Blog"
 theme = "mediumish-gohugo-theme"
 summaryLength = 25
 copyright = "Milner Trump - All rights reserved"
+enableEmoji = true
+publishDir = "docs"
 disqusShortname = "miltrumptech"
 googleAnalytics = "UA-1XXXXXXX1-X"
 [params]
-  logo = "/images/icon.png"
+  logo = "/images/logo.png"
   description = "the clean blog!"
   mailchimp = "you can provide a mailchimp-link here, see below"
   mailprotect = "you can provide a protector-name here, see below"
   customCSS = []
 [params.author]
-  name = "John Doe"
-  thumbnail = "/images/author.jpg"
+  name = "Milner Trump"
+  thumbnail = "/images/author.png"
   description = "Creator of this blog."
 [params.index]
-  picture = "/images/author.jpg"
-  title = "John Doe"
-  subtitle = "I'm a unique placeholder. Working here and there!"
-  mdtext = '''Currently trying to get this blog running, still don't know what the blog will be about!\
-**This textblock is a demonstration of the mdtext-param.**\
-### This is a markdown heading'''
+  picture = "/images/author.png"
+  title = "Milner Trump"
+  subtitle = "I'm a writer who enjoys sharing his knowledge and insights on crypto trends!"
+  mdtext = '''This blog is a platform where he shares valuable insights and analysis about trends, product reviews, tutorials, and how-to guides.\
+  **Thank you for taking the time to learn a little bit about me.**
+  ### Welcome to my tech blog!'''
   alertbar = true
 [params.social]
   github = "<username>"
@@ -31,3 +33,26 @@ googleAnalytics = "UA-1XXXXXXX1-X"
   medium = "<username>"
   twitter = "<username>"
   instagram = "<username>"
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "Separate"
+    weight = 100
+    identifier = "separate"
+    url = "/separate"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
+[[menu.main]]
+    name = "Imprint"
+    identifier = "imprint"
+    weight = 200
+    url = "/static/imprint"
+[taxonomies]
+  category = "categories"
